@@ -1,23 +1,18 @@
 import React, { useState } from 'react';
 
 const ConditionRendaring = () => {
-    const use = 10;
-    const we = true;
-    if (we === !true) {
-        console.log('true')
+    function Video({ video }) {
+        return (
+            <div>
+                <Thumbnail video={video} />
+                <a href={video.url}>
+                    <h3>{video.title}</h3>
+                    <p>{video.description}</p>
+                </a>
+                <LikeButton video={video} />
+            </div>
+        );
     }
-    else {
-        console.log('not a true')
-    }
-
-
-
-
-    return (
-        <div>
-            <h2>Wee are conditonal reandaring {we} </h2>
-        </div>
-    );
 };
 
 export default ConditionRendaring;
