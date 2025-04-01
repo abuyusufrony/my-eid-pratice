@@ -13,7 +13,7 @@ const Todo = () => {
             <h2>Today Heading  </h2>
 
             <EidBeforeNight></EidBeforeNight>
-            <Clock></Clock>
+
         </div>
     );
 };
