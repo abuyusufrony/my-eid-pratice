@@ -9,8 +9,9 @@ const Nav = () => {
     }, [theme])
 
     const themeChnage = (e) => {
-        if (e.target.checkbox) {
-            console.log(e.target.checkbox)
+
+        if (e.target.checked) {
+            console.log(e.target.checked)
             setTheme('dark')
 
 
@@ -21,7 +22,7 @@ const Nav = () => {
 
         }
 
-        console.log(theme)
+        // console.log(theme)
 
     }
 
