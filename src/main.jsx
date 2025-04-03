@@ -5,6 +5,8 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Hook from './Components/Hook/Hook.jsx'
 import Home from './Components/Pages/Home.jsx'
+import Bookmarks from './Components/Bookmark/Bookmarks.jsx'
+import Blogs from './Components/Blogs/Blogs.jsx'
 
 const router = createBrowserRouter([
   {
@@ -12,8 +14,16 @@ const router = createBrowserRouter([
     element: <Hook></Hook>,
     children: [
       {
-        path: '/',
+        path: '/Home',
         element: <Home></Home>
+      },
+      {
+        path: '/Bookmarks',
+        element: <Bookmarks></Bookmarks>
+      },
+      {
+        path: '/Blogs',
+        element: <Blogs></Blogs>
       }
     ]
   }

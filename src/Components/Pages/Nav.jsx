@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router';
 
 const Nav = () => {
     const [theme, setTheme] = useState('light')
@@ -34,10 +35,10 @@ const Nav = () => {
                     <a className="btn btn-ghost text-2xl font-bold gap-0"> <span className='text-secondary'>Rony</span> <span className='text-primary'>Dev</span></a>
                 </div>
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1 font-bold">
-                        <li><a>Home </a></li>
-                        <li><a>Blogs</a></li>
-                        <li><a>Bookmarks</a></li>
+                    <ul className="menu menu-horizontal px-1 font-bold  ">
+                        <li><NavLink to='/' className={({ isActive }) => isActive ? 'text-primary' : 'font-bold'}>Home</NavLink></li>
+                        <li><NavLink to='/Blogs' className={({ isActive }) => isActive ? "text-primary" : "font-bold"}>Blogs</NavLink></li>
+                        <li><NavLink to='/Bookmarks' > Bookmarks</NavLink></li>
 
                     </ul>
 
