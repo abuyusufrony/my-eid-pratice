@@ -30,14 +30,14 @@ const Nav = () => {
     return (
         <div className=''>
             <h2 className=''>This is nav</h2>
-            <div className="navbar bg-base-100 shadow-sm ">
+            <div className="navbar bg-base-100 shadow-sm  ">
                 <div className="flex-1  ">
                     <a className="btn btn-ghost text-2xl font-bold gap-0"> <span className='text-secondary'>Rony</span> <span className='text-primary'>Dev</span></a>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1 font-bold  ">
                         <li><NavLink to='/' className={({ isActive }) => isActive ? 'text-primary' : 'font-bold'}>Home</NavLink></li>
-                        <li><NavLink to='/Blogs' className={({ isActive }) => isActive ? "text-primary" : "font-bold"}>Blogs</NavLink></li>
+                        <li><NavLink to='/Blogs' className={({ isActive }) => isActive ? "text-primary bg-amber-200" : "font-bold"}>Blogs</NavLink></li>
                         <li><NavLink to='/Bookmarks' > Bookmarks</NavLink></li>
 
                     </ul>

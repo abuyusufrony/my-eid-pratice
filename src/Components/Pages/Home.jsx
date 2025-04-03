@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import { Outlet } from 'react-router';
+import Banner from '../Banner/Banner';
 
 
 const Home = () => {
@@ -8,8 +9,8 @@ const Home = () => {
         <div>
 
             <h2 className=''>This is from home</h2>
-            <Nav></Nav>
-            <Outlet></Outlet>
+            <Banner></Banner>
+
 
 
         </div>
