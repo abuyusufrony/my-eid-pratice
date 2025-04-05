@@ -4,7 +4,7 @@ import wave from '../../assets/wave.svg'
 const Banner = () => {
     return (
         <div>
-            <div className="banner-conatiner">
+            <div className="banner-conatiner ">
                 <div className="hero bg-base-200 min-h-screen">
                     <div className="hero-content text-center">
                         <div className="max-w-md">
@@ -16,6 +16,10 @@ const Banner = () => {
                             <button className="btn btn-primary">Get Started</button>
                         </div>
                     </div>
+
+                </div>
+                <div>
+                    <img className=' ' src={wave} alt="" />
                 </div>
 
             </div>

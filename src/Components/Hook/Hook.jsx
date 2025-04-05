@@ -11,7 +11,7 @@ const Hook = () => {
         <div>
             <Nav></Nav>
             <Outlet></Outlet>
-            <img className='w-full h-40' src={wave} alt="" />
+
             <Footer></Footer>
 
 
