@@ -4,12 +4,14 @@ import Navbar from 'daisyui/components/navbar';
 import Nav from '../Pages/Nav';
 import { Outlet } from 'react-router';
 import Footer from '../Footer/Footer';
+import wave from '../../assets/wave.svg'
 
 const Hook = () => {
     return (
         <div>
             <Nav></Nav>
             <Outlet></Outlet>
+            <img className='w-full h-40' src={wave} alt="" />
             <Footer></Footer>
 
 

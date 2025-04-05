@@ -1,4 +1,5 @@
 import React from 'react';
+import wave from '../../assets/wave.svg'
 
 const Banner = () => {
     return (
@@ -16,6 +17,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     );
