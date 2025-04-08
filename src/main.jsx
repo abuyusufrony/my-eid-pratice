@@ -7,6 +7,7 @@ import Hook from './Components/Hook/Hook.jsx'
 import Home from './Components/Pages/Home.jsx'
 import Bookmarks from './Components/Bookmark/Bookmarks.jsx'
 import Blogs from './Components/Blogs/Blogs.jsx'
+import BlogDetails from './Components/BlogDetails/BlogDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,12 @@ const router = createBrowserRouter([
         path: '/Blogs',
         element: <Blogs></Blogs>,
         loader: () => fetch('https://dev.to/api/articles?per_page=12&top=7')
+      },
+      {
+        path: '/Blogs/:id',
+        element: <BlogDetails></BlogDetails>,
+        loader: ({ params }) => fetch(`https://dev.to/api/articles/${params.id}`)
+
       }
     ]
   }
