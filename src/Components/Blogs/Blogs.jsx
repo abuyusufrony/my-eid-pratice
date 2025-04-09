@@ -1,9 +1,12 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+import { useLoaderData, useNavigation } from 'react-router';
 import Allpost from '../AllPost/Allpost';
+import Loader from '../Loader/Loader';
 
 const Blogs = () => {
     const blogs = useLoaderData()
+    const nav = useNavigation()
+    if (nav.state === 'loading') return <Loader></Loader>
     return (
 
         <div>
