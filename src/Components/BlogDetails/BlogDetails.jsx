@@ -6,11 +6,21 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Content from '../Content/Content';
 import Author from '../Author/Author';
+import { RiBookmark3Line } from 'react-icons/ri';
+import { BiBookmark } from 'react-icons/bi';
+import { saveLocal } from '../../utilites/Local';
 
 const BlogDetails = () => {
     const single = useLoaderData()
     const { title, comments_count, reading_time_minutes, tag_list, public_reactions_count, published_at } = single
     console.log(single)
+
+    const boomarkhandle = (id) => {
+        saveLocal(id)
+
+
+
+    }
 
     return (
         <div>
@@ -29,11 +39,16 @@ const BlogDetails = () => {
 
                     <Tabs>
                         <TabList>
+
                             <Tab>Content</Tab>
+
                             <Tab>Author</Tab>
+
+                            <div onClick={() => boomarkhandle(single)} className='mt-3 text-4xl flex justify-end   cursor-pointer  ml-3 p-2  rounded-full'><BiBookmark className='text-primary'></BiBookmark></div>
 
                         </TabList>
 
+                        hover:scale-105
                         <TabPanel>
                             <Content></Content>
                         </TabPanel>
@@ -46,7 +61,7 @@ const BlogDetails = () => {
 
             </div>
 
-        </div>
+        </div >
     );
 };
 

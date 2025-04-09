@@ -1,7 +1,12 @@
 import React from 'react';
 import wave from '../../assets/wave.svg'
+import { useNavigation } from 'react-router';
+import Loader from '../Loader/Loader';
 
 const Banner = () => {
+
+    const nav = useNavigation()
+    if (nav.state === 'loading') return <Loader></Loader>
     return (
         <div>
             <div className="banner-conatiner ">
