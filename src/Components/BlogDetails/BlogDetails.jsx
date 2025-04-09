@@ -10,6 +10,7 @@ import Author from '../Author/Author';
 const BlogDetails = () => {
     const single = useLoaderData()
     const { title, comments_count, reading_time_minutes, tag_list, public_reactions_count, published_at } = single
+    console.log(single)
 
     return (
         <div>
