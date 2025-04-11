@@ -48,7 +48,7 @@ const BlogDetails = () => {
 
                         </TabList>
 
-                        hover:scale-105
+
                         <TabPanel>
                             <Content></Content>
                         </TabPanel>

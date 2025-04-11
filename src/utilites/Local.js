@@ -26,7 +26,7 @@ export const DltLocal = (id) => {
     let dltblg = store()
     const remaing = dltblg.filter(d => d.id !== id)
     localStorage.setItem('blogs', JSON.stringify(remaing))
-    toast.success('Remove Done')
+    toast.success('Remove From Bookmark')
 
 }
 
