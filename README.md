@@ -87,6 +87,5 @@ src/
 ## 🌐 Live Demo
 
 🚀 **Check out the live version here:**  
-🔗 [AI Blog UI - RonyDev Live](https://dashing-ganache-3842c0.netlify.app/Dashbord)
+🔗 [AI Blog UI - RonyDev Live](smart-deer.surge.sh )
 
->
