@@ -91,7 +91,7 @@ src/
 ## 🌐 Live Demo
 
 🚀 **Check out the live version here:**  
-🔗 [AI Blog UI - RonyDev Live](http://smart-deer.surge.sh)
+🔗 [AI Blog UI - RonyDev  http://smart-deer.surge.sh]
 
 
 
