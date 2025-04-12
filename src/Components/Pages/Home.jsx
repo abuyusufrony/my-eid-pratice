@@ -8,8 +8,7 @@ const Home = () => {
     return (
         <div>
 
-            <h2 className=''>This is from home</h2>
-            <h2>This is homwe</h2>
+
             <Banner></Banner>
 
 
