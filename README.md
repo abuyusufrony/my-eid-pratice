@@ -84,8 +84,11 @@ src/
 └── main.jsx
 ---
 
+
+
 ## 🌐 Live Demo
 
 🚀 **Check out the live version here:**  
-🔗 [AI Blog UI - RonyDev Live](smart-deer.surge.sh )
+🔗 [AI Blog UI - RonyDev Live](http://smart-deer.surge.sh)
+
 
