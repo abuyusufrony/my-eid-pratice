@@ -15,6 +15,11 @@ A simple and modern blog web application built with **React.js**, styled using *
 
 ---
 
+## Live Site Link
+[Click Here to Visit the Site](https://stupendous-marigold-c385ad.netlify.app)
+---
+
+
 ## 🚀 Pages & Components (In Serial Order)
 
 1. **`Nav`**: Navigation bar with light/dark theme toggle  
@@ -84,5 +89,3 @@ src/
 └── main.jsx
 
 ---
-## Live Site Link
-[Click Here to Visit the Site](https://stupendous-marigold-c385ad.netlify.app)
