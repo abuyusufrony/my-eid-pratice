@@ -86,7 +86,7 @@ src/
 
 
 
-Live Site: [http://smart-deer.surge.sh](http://smart-deer.surge.sh)
+Live Site: http://smart-deer.surge.sh
 
 
 
