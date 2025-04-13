@@ -82,20 +82,8 @@ src/
 │
 ├── App.jsx
 └── main.jsx
+
+ [Click here to view the live site](http://smart-deer.surge.sh)
 ---
-
-
-<<<<<<< HEAD
-[Click here to view the live site](http://smart-deer.surge.sh)
-=======
-
-
-
-
-
-
->>>>>>> 1a56d0334432c2a936bb651e15197829e904c218
-
-
 
 
