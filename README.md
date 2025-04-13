@@ -90,8 +90,10 @@ src/
 
 ## 🌐 Live Demo
 
-🚀 **Check out the live version here:**  
-🔗 [AI Blog UI - RonyDev  http://smart-deer.surge.sh]
+## Live Demo
+
+Click the link below to view the live site:  
+🔗 [http://smart-deer.surge.sh](http://smart-deer.surge.sh)
 
 
 
