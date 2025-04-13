@@ -84,5 +84,5 @@ src/
 └── main.jsx
 
 ---
-🔗 Live Site
-👉 Click here to view the live site
+## Live Site Link
+[Click Here to Visit the Site](https://stupendous-marigold-c385ad.netlify.app/)  
