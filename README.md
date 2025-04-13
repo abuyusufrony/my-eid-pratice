@@ -86,14 +86,13 @@ src/
 
 
 
-## 🌐 Live Demo
 
-## 🌐 Live Demo
+
 
 ## Live Demo
 
-Click the link below to view the live site:  
-🔗 [http://smart-deer.surge.sh](http://smart-deer.surge.sh)
+Live Site: [http://smart-deer.surge.sh](http://smart-deer.surge.sh)
+
 
 
 
