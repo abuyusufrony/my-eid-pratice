@@ -83,7 +83,8 @@ src/
 ├── App.jsx
 └── main.jsx
 
- [Click here to view the live site](http://smart-deer.surge.sh)
 ---
 
+✅ Just copy and replace your current `README.md` contents with this one — your hyperlink will now be rendered correctly on GitHub.
 
+Let me know if you want help adding a screenshot or badges too!
