@@ -1,5 +1,4 @@
 import React from 'react';
-import wave from '../../assets/wave.svg'
 import { Link, useNavigation } from 'react-router';
 import Loader from '../Loader/Loader';
 import ai from '../../assets/ai image.jpg'
@@ -34,8 +33,9 @@ const Banner = () => {
                 </div>
 
             </div> */}
+            {/* bg-violet-700 bg-[#7C4EE4] */}
 
-            <section className="dark:bg-gray-100 dark:text-gray-800 bg-[#7C4EE4]">
+            <section className="dark:bg-gray-100 dark:text-gray-800  bg-violet-700">
                 <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
                     <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left text-white">
                         <h1 className="text-5xl font-bold leading-none sm:text-6xl text-white">How AI will
@@ -60,7 +60,7 @@ const Banner = () => {
 
                 </div>
             </section>
-        </div>
+        </div >
     );
 };
 

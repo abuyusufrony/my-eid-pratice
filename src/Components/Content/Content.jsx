@@ -22,7 +22,29 @@ const Content = () => {
                         }
                     </ul>
                     <h3 className="text-xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">{title}</h3>
-                    <Markdown rehypePlugins={[rehypeRaw]}>{body_html}</Markdown>
+                    {/* <Markdown rehypePlugins={[rehypeRaw]}>{body_html}</Markdown> */}
+
+
+
+                    {/* // In your layout component
+                    <div className="max-w-screen-md mx-auto px-4 w-full">
+                        <Markdown rehypePlugins={[rehypeRaw]}>
+                            {body_html}
+                        </Markdown>
+                    </div> */}
+
+
+                    <div className="max-w-[100vw] overflow-hidden">
+                        <div
+                            dangerouslySetInnerHTML={{ __html: body_html }}
+                            className="[&>*]:max-w-full 
+               [&_img]:max-w-full
+               [&_pre]:overflow-x-auto
+               [&_pre]:max-w-full
+               [&_table]:max-w-full"
+                        />
+                    </div>
+
                 </div>
             </div>
         </Link >
